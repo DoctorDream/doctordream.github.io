@@ -13,7 +13,7 @@ language: zh-Hans
 timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://zengmianhui.github.io
+url: https://doctordream.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -66,14 +66,3 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
-#发布设置
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/zengmianhui/zengmianhui.github.io.git
-  branch: master
-  message: 我的博客
-#头像
-avatar: zengmianhui.github.io/images/avatar.jpg
